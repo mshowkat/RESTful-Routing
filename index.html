@@ -29,49 +29,49 @@
 			<tbody>
 				<tr>
 					<td>Index</td>
-					<td>/main</td>
+					<td>/blog</td>
 					<td>GET</td>
 					<td>List all blogs</td>
 					<td>blog.find()</td>
 				</tr>
 				<tr class="success">
 					<td>New</td>
-					<td>/main/new</td>
+					<td>/blog/new</td>
 					<td>GET</td>
 					<td>Show new blog form</td>
 					<td>N/A</td>
 				</tr>
 				<tr class="success">
 					<td>Create</td>
-					<td>/main</td>
+					<td>/blog</td>
 					<td>POST</td>
 					<td>Create a new blog, then redirect somewhere</td>
 					<td>Blog.create()</td>
 				</tr>
 				<tr class="info">
 					<td>Show</td>
-					<td>/main/:id</td>
+					<td>/blog/:id</td>
 					<td>GET</td>
 					<td>Show info about one specific blog</td>
 					<td>Blog.findById()</td>
 				</tr>
 				<tr class="warning">
 					<td>Edit</td>
-					<td>/main/:id/edit</td>
+					<td>/blog/:id/edit</td>
 					<td>GET</td>
 					<td>Show edit form for one blog</td>
 					<td>Blog.findById()</td>
 				</tr>
 				<tr class="warning">
 					<td>Update</td>
-					<td>/mains/:id</td>
+					<td>/blog/:id</td>
 					<td>PUT</td>
 					<td>Update particular blog, then redirect somewhere</td>
 					<td>Blog.findByIdAndUpdate()</td>
 				</tr>
 				<tr class="danger">
 					<td>Destroy</td>
-					<td>/mains/:id</td>
+					<td>/blog/:id</td>
 					<td>DELETE</td>
 					<td>Delete a particular blog, then redirect somewhere</td>
 					<td>Blog.findByIdAndRemove()</td>
